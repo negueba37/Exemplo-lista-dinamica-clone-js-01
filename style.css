@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+.card-item-lista {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 20vh;
+    margin: 10px 0 10px 0;
+}
+
+.img-card {
+    width: 100px;
+}
+
+#sessaoLista {
+    overflow: auto;
+    height: 80%;
+}
+
+.card-descricao {
+    margin-left: 10px;
+}
+
+#lista {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+footer {
+    height: 20%;
+    align-items: baseline;
+}
+
+#btnListar {
+    width: 100%;
+    background-color: green;
+    color: #fff;
+    font-size: 16px;
+}
+
+.descricao-card {}
